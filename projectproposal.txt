@@ -1,0 +1,18 @@
+Portfolio Project Proposal
+Jack Flaherty
+William Bowditch
+Roseanna Chu
+
+Our project will be a website where one can build and view information about a stock portfolio.
+One can make an account in a way that is similar to account creation for the Club assignment. 
+The login will be done in a similar way, if the information is present in the database they will be directed to a page
+ that displays their stock tickers, portfolio value, and cash in their account. 
+The database will be queried accordingly depending on what they choose to do with their account. 
+This database will store a list or array of stock tickers, name, email, password, amount of cash, portfolio value, etc.
+
+The data about the stocks will be gotten through an HTTP request to the yahoo finance API. 
+The API returns information about the stocks in the form of JSON; for our purposes it will be queried for
+the current price or close price. Once the JSON is processed and we have the price, 
+the person will be able to then buy or sell a certain stock that they queried. 
+For further API consumption there will be a live chat box on the right side of the page written 
+in JavaScript using the PubNub API.

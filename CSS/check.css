@@ -1,0 +1,17 @@
+#chat{
+			overflow: auto;
+			width: 250px;
+			height: 250px;
+			background: white;
+			border: 3px groove gray;
+			padding: 5px;
+		}
+
+#right{
+			float: right;
+			color: black;
+}
+
+#rightwhite{
+	float:right;
+}
